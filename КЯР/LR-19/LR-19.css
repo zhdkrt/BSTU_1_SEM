@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+body {
+  font-family: "Rubic Mono One";
+}
+header {
+  background-color: #2e0458;
+  width: 100vw;
+  height: 1020px;
+}
+
+nav {
+  background-color: #220142;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.conteiner {
+  width: calc(100vw - 660px);
+  margin: 0 auto;
+}
+.nav_interface {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+}
+.nav_interface a:first-child {
+  color: #f98513;
+  text-align: center;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  font-family: Rubik Mono One;
+}
+.nav_interface a {
+  color: #fff;
+  text-align: center;
+  font-family: Rubik Mono One;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.98px;
+  text-decoration: none;
+}
+.header_content {
+  display: flex;
+  justify-content: center;
+  margin-top: 176px;
+  gap: 126px;
+  align-items: center;
+}
+.rocket {
+  width: 551px;
+  height: 547px;
+}
+.header_content h1 {
+  color: white;
+  font-family: Rubik Mono One;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 7.04px;
+}
+.header_content h1 span {
+  color: #f98513;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 10.56px;
+}
+main {
+  display: flex;
+  justify-content: space-around;
+  background-color: #220142;
+}
+.planets {
+  width: 100vw;
+  height: 1800px;
+  background-color: #220142;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 58px;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 600px;
+  height: 700px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #2e0458;
+  box-shadow: 5px 5px 10px 0px #411370;
+  text-align: center;
+  gap: 26px;
+}
+.card img {
+  width: 287px;
+  height: 287px;
+  flex-shrink: 0;
+  margin: 0 auto;
+}
+.card p {
+  width: 488px;
+  height: 176px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Rubik Mono One;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.98px;
+  text-align: left;
+  margin: 0 auto;
+}
+.card h1 {
+  width: 600px;
+  flex-shrink: 0;
+  margin: 0;
+  text-align: center;
+}
+.first_h1 {
+  color: #d282ee;
+  text-align: center;
+  text-shadow: 2px 2px 10px #a896d3;
+  font-family: Rubik Mono One;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 16px;
+}
+.second_h1 {
+  color: #f98513;
+  text-align: center;
+  text-shadow: 2px 2px 10px #f48213;
+  font-family: Rubik Mono One;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 16px;
+}
+
+.earth {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #2e0458;
+  width: 100vw;
+  height: 900px;
+  margin-top: 100px;
+}
+.picture img {
+  width: 660px;
+  height: 661px;
+  flex-shrink: 0;
+  margin-top: 119px;
+}
+.text h1 {
+  margin-top: 242px;
+  width: 600px;
+  height: 76px;
+  text-align: center;
+  color: #00d5f5;
+  text-align: center;
+  text-shadow: 2px 2px 10px #55e9ff;
+  font-family: Rubik Mono One;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 16px;
+  margin-bottom: 0;
+}
+.text p {
+  margin: 0;
+  width: 600px;
+  height: 374px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Rubik Mono One;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.98px;
+}
+.text span {
+  color: #a896d3;
+  font-family: Rubik Mono One;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.98px;
+  text-decoration-line: underline;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 200px;
+  background-color: #220142;
+  gap: 30px;
+  align-items: center;
+}
+footer p {
+  color: #705ea9;
+  font-family: Rubik Mono One;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.54px;
+  margin: 0px;
+}
+#button:hover {
+  color: aqua;
+}
+[href] {
+  text-decoration: none;
+  color: inherit;
+}
+.mercury {
+  transition: 1s;
+}
+.mercury:hover {
+  transform: scale(1.1);
+}
+.venera {
+  transition: 2s;
+}
+.venera:hover {
+  transform: rotateY(0.5turn);
+}
+
