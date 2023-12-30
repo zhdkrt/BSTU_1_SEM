@@ -1,0 +1,16 @@
+[data-category] {
+  color: red;
+}
+[data-category^="fruit"] {
+  color: green;
+}
+[data-category$="et"] {
+  color: blue;
+}
+[data-category*="кар"] {
+  color: yellow;
+}
+[data-category="fruit"] {
+  color: orange;
+}
+a[href$=".ru"]

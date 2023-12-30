@@ -1,0 +1,22 @@
+ul li {
+  text-transform: uppercase;
+}
+
+p.first a {
+  color: green;
+}
+p .first a {
+  color: green;
+}
+.first a {
+  color: green;
+}
+p.second b {
+  color: blue;
+}
+p.third > b {
+  color: green;
+}
+span + i {
+  color: brown;
+}

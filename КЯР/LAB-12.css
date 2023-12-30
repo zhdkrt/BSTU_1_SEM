@@ -1,0 +1,25 @@
+p {
+  margin: 0px;
+}
+div.second {
+  margin-top: 20px;
+}
+div.second p {
+  margin: 0px 0px 20px 0px;
+}
+.third {
+  margin: 20px 0px 20px 0px;
+}
+
+.last p {
+  margin: 20px 0px 20px 0px;
+}
+[type^="number"] {
+  width: 60px;
+}
+[type^="file"] {
+  margin-top: 20px;
+}
+.lastlast {
+  margin-top: 20px;
+}

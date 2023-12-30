@@ -1,0 +1,27 @@
+body {
+  border: 4px solid green;
+  color: red;
+  font-size: 20px;
+}
+.second_p {
+  border: inherit;
+}
+.first_p > a {
+  color: inherit;
+}
+p:nth-child(3) {
+  color: initial;
+  width: 50%;
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1em;
+}
+section {
+  background-image: url("пейзаж.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}

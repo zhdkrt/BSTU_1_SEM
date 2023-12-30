@@ -1,0 +1,32 @@
+p {
+  color: blue;
+  width: 400px;
+  height: 200px;
+  text-align: justify;
+}
+h1 {
+  color: blue;
+}
+h2 {
+  color: green;
+}
+h3 {
+  color: orange;
+}
+#first {
+  width: 300px;
+}
+h1 {
+  text-align: center;
+  text-transform: lowercase;
+}
+h2 {
+  text-align: right;
+}
+#second {
+  text-align: center;
+}
+
+.first {
+  width: 400px;
+}

@@ -1,0 +1,40 @@
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: blue;
+}
+
+b + i {
+  color: blue;
+}
+b {
+  color: red;
+}
+p + i {
+  color: blue;
+}
+i + i {
+  color: blue;
+}
+
+p.first i {
+  color: blue;
+}
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+.second {
+  text-align: center;
+}
+p {
+  text-indent: 5%;
+}
+div {
+  width: 400px;
+  height: auto;
+}
+a[target="_blank"] {
+  color: red;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="LAB-13.css" />
+    <style>
+      div {
+        margin: 5px;
+      }
+      #first {
+        display: flex;
+        width: auto;
+        justify-content: space-between;
+        height: auto;
+      }
+      video {
+        height: 300px;
+        width: 600px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <audio
+        src="Неизвестен - La Roux x Crystal Castles-Bulletproof Char-memorywave.mp3"
+        controls
+        loop
+      ></audio>
+    </div>
+    <div id="first">
+      <div id="second">
+        <video
+          src="ЭТО ПЕРВЫЙ В МИРЕ БУРГЕР ИЗ ЧЕЛОВЕКА.mp4"
+          controls
+          poster="пейзаж.jpg"
+          preload="auto"
+        >
+          <track
+            label="English"
+            kind="subtitles"
+            src="subtitles.vtt"
+            srclang="en"
+          />
+        </video>
+      </div>
+      <div id="third">
+        <video controls poster="пейзаж.jpg" preload="auto" kind="captions" loop>
+          <track
+            label="English"
+            kind="subtitles"
+            src="subtitles.vtt"
+            srclang="en"
+          />
+          <source src="ЭТО ПЕРВЫЙ В МИРЕ БУРГЕР ИЗ ЧЕЛОВЕКА.mp4" />
+        </video>
+      </div>
+      <div id="fourth">
+        <video
+          src="ЭТО ПЕРВЫЙ В МИРЕ БУРГЕР ИЗ ЧЕЛОВЕКА.mp4"
+          controls
+          poster="пейзаж.jpg"
+          preload="auto"
+          kind="captions"
+        >
+          <track
+            label="English"
+            kind="subtitles"
+            src="subtitles.vtt"
+            srclang="en"
+          />
+        </video>
+      </div>
+    </div>
+  </body>
+</html>

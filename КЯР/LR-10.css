@@ -1,0 +1,80 @@
+a {
+  color: orange;
+}
+
+a:visited {
+  color: red; 
+}
+
+a:hover {
+  color: blueviolet;   
+  cursor: wait;
+}
+
+a:active {
+  color: yellow;
+}
+
+.fourth li:nth-child(3) {
+  color: red;
+}
+
+.second li:nth-child(odd) {
+  color: blue;
+}
+.second li:first-child {
+  color: blue;
+}
+
+#table {
+  border: 1px solid black;
+  width: 30%;
+}
+
+#table tr:nth-child(odd) {
+  background-color: blue;
+}
+
+#table tr:nth-child(even) {
+  background-color: green;
+}
+
+tr:hover td {
+  background-color: yellow;
+}
+
+.first:last-child {
+  color: yellow;
+}
+
+.first li:last-child {
+  color: blue;
+}
+
+.first li:first-child {
+  color: red;
+}
+
+.third li:nth-child(3) {
+  color: orange;
+}
+
+#first_of_type {
+  border: 1px solid black;
+  width: 30%;
+}
+
+th:first-of-type {
+  background-color: red;
+}
+
+.td:first-of-type {
+  background-color: green;
+}
+
+.secondul li:nth-last-child(4) {
+  color: red;
+}
+#aaaa li:nth-child(3n) {
+  color: red;
+}
