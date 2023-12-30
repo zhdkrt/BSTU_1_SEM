@@ -1,0 +1,121 @@
+@keyframes div {
+  from {
+    background-color: orange;
+    animation-timing-function: linear;
+  }
+  50% {
+    background-color: green;
+    animation-timing-function: linear;
+  }
+  to {
+    background-color: orange;
+    animation-timing-function: linear;
+  }
+}
+.first {
+  width: 300px;
+  height: 300px;
+  animation: div 2s infinite;
+  border-radius: 50%;
+}
+button {
+  margin-top: 10px;
+  width: 200px;
+  height: 100px;
+  background-color: black;
+  transition: 1s;
+}
+button:hover {
+  background-color: red;
+}
+.div_img {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+img {
+  width: 300px;
+  height: 150px;
+}
+.first_img:hover {
+  animation-timing-function: ease-in;
+  transition: 2s;
+  transform: scaleX(-1);
+}
+.second_img:hover {
+  animation-timing-function: ease-in;
+  transition: 2s;
+  transform: scale(-1, -1);
+}
+.third_img:hover {
+  transition: 2s;
+  transform: rotateZ(-90deg);
+}
+.fourth_img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  transition: 2s;
+}
+.fourth_img:hover {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  animation-timing-function: ease-in-out;
+  transition: 2s;
+  transform: rotateZ(360deg);
+}
+.fifth_img,
+.sixth_img {
+  transition: 2s;
+}
+.fifth_img:hover,
+.sixth_img:hover {
+  transform-origin: top right;
+  transition: 2s;
+  transform: rotateZ(15deg);
+}
+.seventh_img {
+  transition: 2s;
+}
+.seventh_img:hover {
+  transform-origin: center bottom;
+  transition: 2s;
+  perspective: 500px;
+  transform: rotateX(30deg);
+}
+.second_button {
+  transition: 2s;
+  margin-bottom: 200px;
+}
+.second_button:hover {
+  transform: scale(3);
+}
+@keyframes ball {
+  from {
+    transform: translateX(0) translateY(0);
+  }
+  20% {
+    transform: translateX(100px) translateY(-100px);
+  }
+  40% {
+    transform: translateX(200px) translateY(0px);
+  }
+  60% {
+    transform: translateX(300px) translateY(-100px);
+  }
+  80% {
+    transform: translateX(400px) translateY(0px);
+  }
+  to {
+    transform: translateX(500px) translateY(-100px);
+  }
+}
+.ball {
+  background-color: red;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  animation: ball 10s linear infinite;
+}

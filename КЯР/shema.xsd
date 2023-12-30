@@ -1,0 +1,18 @@
+<!-- XSD - описание структуры XML-документа -->
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">   
+        <xs:element name="STUDENT">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="NAME"/>
+              <xs:element type="xs:string" name="SURNAME"/>
+              <xs:element type="xs:byte" name="AGE"/>
+              <xs:element type="xs:string" name="UNIVERSITY"/>
+              <xs:element type="xs:byte" name="COURSE"/>
+              <xs:element type="xs:string" name="GROUP"/>
+              <xs:element type="xs:string" name="FACULTY"/>
+              <xs:element type="xs:string" name="SPECIALITY"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+</xs:schema>

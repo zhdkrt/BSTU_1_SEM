@@ -1,0 +1,61 @@
+body {
+  background: url("https://img2.gratispng.com/20180301/jee/kisspng-cartoon-comics-drawing-fence-vector-5a98089c41c595.4537873315199131162694.jpg ");
+  background-repeat: repeat-x;
+}
+.general {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  height: 300px;
+  position: relative;
+}
+.div {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+.first {
+  background-color: red;
+  border-radius: 50% 5% 50% 5%;
+}
+.second {
+  background-color: black;
+  border-radius: 10% 10% 10% 10%;
+}
+.third {
+  background-color: blue;
+  border-radius: 50% 50% 50% 1%;
+}
+.fourth {
+  background-color: brown;
+  border-radius: 50%;
+}
+.fifth {
+  background-color: chocolate;
+  border-radius: 50% 50% 1% 1%;
+}
+.sixth {
+  background-color: chartreuse;
+  border-radius: 25% 25% 50% 50%;
+}
+.seventh {
+  background-color: darkblue;
+  border-radius: 100px 1px;
+}
+.heading {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  background-image: url("../пейзаж.jpg");
+  width: 1500px;
+  height: 1000px;
+}
+
+h1 {
+  background-color: white;
+  mix-blend-mode: lighten;
+  position: absolute;
+  top: 500px;
+  left: 300px;
+}

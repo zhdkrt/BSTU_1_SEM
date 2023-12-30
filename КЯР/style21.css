@@ -1,0 +1,52 @@
+STUDENT {
+  width: 600px;
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border: 1px solid black;
+}
+
+NAME {
+  color: red;
+}
+
+SURNAME {
+  color: blue;
+}
+
+AGE {
+  color: green;
+  display: block;
+  margin-bottom: 5px;
+  margin-left: 0;
+}
+
+UNIVERSITY {
+  display: block;
+  margin-bottom: 5px;
+  margin-left: 0;
+}
+
+COURSE {
+  display: block;
+  margin-bottom: 5px;
+  margin-left: 0;
+}
+
+FACULTY {
+  display: block;
+  margin-bottom: 5px;
+  margin-left: 0;
+}
+
+SPECIALITY {
+  display: block;
+  margin-bottom: 5px;
+  margin-left: 0;
+}
+
+GROUP {
+  display: block;
+  margin-bottom: 5px;
+  margin-left: 0;
+}

@@ -1,0 +1,75 @@
+div {
+  display: inline-block;
+  border: 1px solid black;
+}
+.first {
+  background-image: url("../пейзаж.jpg");
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 200px;
+}
+.second {
+  background-image: url("../пейзаж.jpg");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  width: 300px;
+  height: 200px;
+}
+.third {
+  background-image: url("../пейзаж.jpg");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: left 50px top 100px;
+  width: 300px;
+  height: 200px;
+}
+.fourth {
+  background-image: url("../пейзаж.jpg");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: top right;
+  width: 300px;
+  height: 200px;
+}
+section {
+  display: table;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-attachment: fixed;
+  width: 300px;
+  height: 200px;
+}
+.one {
+  background-image: url("wildlife-big-cats-whiskers-leopard-Jaguar-escape-Safari-predator-fauna-mammal-vertebrate-cat-like-mammal-big-cat-631117.jpg");
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.two {
+  background-image: url("nastol.com.ua-125796.jpg");
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.three {
+  background-image: url("128581-usy-koshachih-snezhnyj_bars-bakenbardy-morda-3840x2160.jpg");
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.last {
+  display: block;
+  border: 1px solid black;
+  width: 300px;
+  height: 200px;
+  background-image: url("wildlife-big-cats-whiskers-leopard-Jaguar-escape-Safari-predator-fauna-mammal-vertebrate-cat-like-mammal-big-cat-631117.jpg"),
+    url("nastol.com.ua-125796.jpg"),
+    url("128581-usy-koshachih-snezhnyj_bars-bakenbardy-morda-3840x2160.jpg");
+  background-position: top left, bottom right, top right;
+  background-size: 60%, 60%, 60%;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+}

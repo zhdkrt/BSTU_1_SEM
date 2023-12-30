@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="LR-21.css"?>
+<CATALOG xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="scheme.xsd">
+    <BOOK>
+        <NAME>Метро 2033</NAME>
+        <AUTHOR>Дмитрий Глуховский</AUTHOR>
+        <GENRE>Роман</GENRE>
+        <PRICE>30 BYN</PRICE>
+    </BOOK>
+    <BOOK>
+        <NAME>1984</NAME>
+        <AUTHOR>Джордж Оруэлл</AUTHOR>
+        <GENRE>Антиутопия</GENRE>
+        <PRICE>25 BYN</PRICE>
+    </BOOK>
+    <BOOK>
+        <NAME>Война и Мир</NAME>
+        <AUTHOR>Лев Толстой</AUTHOR>
+        <GENRE>Роман</GENRE>
+        <PRICE>40 BYN</PRICE>
+    </BOOK>
+</CATALOG>

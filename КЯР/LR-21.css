@@ -1,0 +1,18 @@
+CATALOG {
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+BOOK {
+  border: 1px solid black;
+  display: block;
+  margin-bottom: 20px;
+}
+NAME,
+AUTHOR,
+GENRE,
+PRICE {
+  display: block;
+}
