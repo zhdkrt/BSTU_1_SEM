@@ -1,0 +1,33 @@
+﻿Сборка начата 18.10.2023 15:59:49.
+Уровень детализации журнала: Normal.     1>Проект "D:\VS\ОАиП\lab7\Project4\Project4.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "x64\Debug\Project4.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Source.cpp
+         Source.cpp
+     1>D:\VS\ОАиП\lab7\Project4\Source.cpp(5,21): error C2079: "hexStream" использует не имеющую определения структуру class "std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char>>"
+     1>D:\VS\ОАиП\lab7\Project4\Source.cpp(5,21): error C2371: hexStream: переопределение; различные базовые типы
+       D:\VS\ОАиП\lab7\Project4\Source.cpp(4,7): message : см. объявление "hexStream"
+     1>D:\VS\ОАиП\lab7\Project4\Source.cpp(6,12): error C2297: "<<": недопустимо, поскольку тип правого операнда — "std::ios_base &(__cdecl *)(std::ios_base &)"
+     1>D:\VS\ОАиП\lab7\Project4\Source.cpp(6,24): warning C4552: "<<": результат выражения не используется
+     1>D:\VS\ОАиП\lab7\Project4\Source.cpp(7,26): error C2065: hexSteam: необъявленный идентификатор
+     1>Сборка проекта "D:\VS\ОАиП\lab7\Project4\Project4.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\VS\ОАиП\lab7\Project4\Project4.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\VS\ОАиП\lab7\Project4\Source.cpp(6,24): warning C4552: "<<": результат выражения не используется
+
+
+       "D:\VS\ОАиП\lab7\Project4\Project4.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\VS\ОАиП\lab7\Project4\Source.cpp(5,21): error C2079: "hexStream" использует не имеющую определения структуру class "std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char>>"
+         D:\VS\ОАиП\lab7\Project4\Source.cpp(5,21): error C2371: hexStream: переопределение; различные базовые типы
+         D:\VS\ОАиП\lab7\Project4\Source.cpp(6,12): error C2297: "<<": недопустимо, поскольку тип правого операнда — "std::ios_base &(__cdecl *)(std::ios_base &)"
+         D:\VS\ОАиП\lab7\Project4\Source.cpp(7,26): error C2065: hexSteam: необъявленный идентификатор
+
+    Предупреждений: 1
+    Ошибок: 4
+
+Прошло времени 00:00:00.43

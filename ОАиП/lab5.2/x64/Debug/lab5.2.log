@@ -1,0 +1,28 @@
+﻿Сборка начата 28.09.2023 21:56:52.
+Уровень детализации журнала: Normal.     1>Проект "D:\VS\ОАиП\lab5.2\lab5.2.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "x64\Debug\lab5.2.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt task2.cpp
+         task2.cpp
+     1>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\utility(59,19): error C2064: результатом вычисления фрагмента не является функция, принимающая 2 аргументов
+       D:\VS\ОАиП\lab5.2\task2.cpp(23,40): message : выполняется компиляция ссылки на экземпляр шаблон функции "const _Ty &std::min<float,float>(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)"
+                 with
+                 [
+                     _Ty=float,
+                     _Pr=float
+                 ]
+     1>D:\VS\ОАиП\lab5.2\task2.cpp(23,5): error C2106: =: левый операнд должен быть левосторонним значением
+     1>Сборка проекта "D:\VS\ОАиП\lab5.2\lab5.2.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\VS\ОАиП\lab5.2\lab5.2.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\utility(59,19): error C2064: результатом вычисления фрагмента не является функция, принимающая 2 аргументов
+         D:\VS\ОАиП\lab5.2\task2.cpp(23,5): error C2106: =: левый операнд должен быть левосторонним значением
+
+    Предупреждений: 0
+    Ошибок: 2
+
+Прошло времени 00:00:00.25

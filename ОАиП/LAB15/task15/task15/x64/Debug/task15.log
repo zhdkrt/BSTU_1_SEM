@@ -1,0 +1,7 @@
+﻿  task1.cpp
+D:\VS\ОАиП\LAB15\task15\task15\task1.cpp(7,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+D:\VS\ОАиП\LAB15\task15\task15\task1.cpp(32,29): warning C4474: "printf_s" : для строки формата передано слишком много аргументов
+  D:\VS\ОАиП\LAB15\task15\task15\task1.cpp(32,29):
+  заполнители и их параметры ожидают переменное число аргументов в количестве 0, но было предоставлено 1
+  
+  task15.vcxproj -> D:\VS\ОАиП\LAB15\task15\x64\Debug\task15.exe

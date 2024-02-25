@@ -1,0 +1,3 @@
+﻿  task2.cpp
+D:\VS\ОАиП\LAB11\Project1\Project1\task2.cpp(6,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  Project1.vcxproj -> D:\VS\ОАиП\LAB11\Project1\x64\Debug\Project1.exe

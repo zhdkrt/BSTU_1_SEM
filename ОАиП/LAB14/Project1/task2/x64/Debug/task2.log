@@ -1,0 +1,5 @@
+﻿  task2.cpp
+D:\VS\ОАиП\LAB14\Project1\task2\task2.cpp(21,8): warning C4553: "==": результат выражения не используется; вы хотели использовать "="?
+D:\VS\ОАиП\LAB14\Project1\task2\task2.cpp(10,9): warning C4101: j: неиспользованная локальная переменная
+D:\VS\ОАиП\LAB14\Project1\task2\task2.cpp(10,6): warning C4101: i: неиспользованная локальная переменная
+  task2.vcxproj -> D:\VS\ОАиП\LAB14\Project1\x64\Debug\task2.exe

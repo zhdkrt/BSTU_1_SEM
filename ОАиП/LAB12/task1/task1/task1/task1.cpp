@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	setlocale(LC_CTYPE, "Russian");
+	unsigned int value; int i;
+	const unsigned int mask = 1 << 31;
+
+	cout << "¬ведите целое число ";
+	cin >> value;
+	cout << "ƒвоичный вид: ";
+	
+	for (i = 1;i <= 32;i++) {
+		putchar(mask & value ? '1' : '0');
+		value <<= 1;
+		if (i % 8 == 0) putchar(' ');
+	}
+}

@@ -1,0 +1,3 @@
+﻿  task.cpp
+D:\VS\ОАиП\KR-6\task\task\task.cpp(11,13): error C2109: для индекса требуется массив или указатель
+D:\VS\ОАиП\KR-6\task\task\task.cpp(13,3): error C2059: синтаксическая ошибка: }

@@ -1,0 +1,3 @@
+﻿  task5.cpp
+D:\VS\ОАиП\lab7\LAB-8\task5\task5.cpp(7,22): warning C4101: y: неиспользованная локальная переменная
+  task5.vcxproj -> D:\VS\ОАиП\lab7\LAB-8\LAB-8\Debug\task5.exe

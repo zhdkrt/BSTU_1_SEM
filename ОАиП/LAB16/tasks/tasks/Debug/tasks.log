@@ -1,0 +1,4 @@
+﻿  task1.cpp
+D:\VS\ОАиП\LAB16\tasks\tasks\task1.cpp(6,12): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+D:\VS\ОАиП\LAB16\tasks\tasks\task1.cpp(12,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  tasks.vcxproj -> D:\VS\ОАиП\LAB16\tasks\Debug\tasks.exe
